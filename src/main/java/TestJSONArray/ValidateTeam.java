@@ -9,13 +9,13 @@ public class ValidateTeam {
 	int noOfForeignPlayer=0; 
 	int noOfWicketKeeper=0;
 	
-	@Test
+	@Test(priority = 0)
 	public void checkForeignPlayer() {
 		noOfForeignPlayer = JSonReader.getForeignPlayer();
 		assertEquals(noOfForeignPlayer, 4);
 	}
 	
-	@Test
+	@Test(priority = 1)
 	public void checkNoOfWicketKeeper() {
 		noOfWicketKeeper = JSonReader.getWicketKeeperCount();
 		assertTrue(noOfWicketKeeper >= 1);

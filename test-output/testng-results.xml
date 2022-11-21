@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-21T11:11:48 IST" name="Default suite" finished-at="2022-11-21T11:11:48 IST" duration-ms="110">
+  <suite started-at="2022-11-21T18:52:12 IST" name="Default suite" finished-at="2022-11-21T18:52:12 IST" duration-ms="105">
     <groups>
     </groups>
-    <test started-at="2022-11-21T11:11:48 IST" name="Default test" finished-at="2022-11-21T11:11:48 IST" duration-ms="110">
+    <test started-at="2022-11-21T18:52:12 IST" name="Default test" finished-at="2022-11-21T18:52:12 IST" duration-ms="105">
       <class name="TestJSONArray.ValidateTeam">
-        <test-method signature="checkForeignPlayer()[pri:0, instance:TestJSONArray.ValidateTeam@76f2bbc1]" started-at="2022-11-21T11:11:48 IST" name="checkForeignPlayer" finished-at="2022-11-21T11:11:48 IST" duration-ms="42" status="PASS">
+        <test-method signature="checkForeignPlayer()[pri:0, instance:TestJSONArray.ValidateTeam@76f2bbc1]" started-at="2022-11-21T18:52:12 IST" name="checkForeignPlayer" finished-at="2022-11-21T18:52:12 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkForeignPlayer -->
-        <test-method signature="checkNoOfWicketKeeper()[pri:0, instance:TestJSONArray.ValidateTeam@76f2bbc1]" started-at="2022-11-21T11:11:48 IST" name="checkNoOfWicketKeeper" finished-at="2022-11-21T11:11:48 IST" duration-ms="4" status="PASS">
+        <test-method signature="checkNoOfWicketKeeper()[pri:1, instance:TestJSONArray.ValidateTeam@76f2bbc1]" started-at="2022-11-21T18:52:12 IST" name="checkNoOfWicketKeeper" finished-at="2022-11-21T18:52:12 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkNoOfWicketKeeper -->
